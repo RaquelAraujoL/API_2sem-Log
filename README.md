@@ -1,5 +1,5 @@
 #   Aprendizado por Projeto Integrado (API) 
-##  Grupo G4 Logística - 1 Semestre
+##  Grupo G2 Logística - 2 Semestre - LogTeam
 
 ---
 
@@ -38,7 +38,7 @@ com ênfase nos municípios paulistas, utilizando dados oficiais do ComexStat pa
 | Team Member    | Jackson David Rodrigues Penaforte | [GitHub](https://github.com/Jacksonpenaforte) |  |
 | Team Member    | Marcelo R. Osako  | [GitHub](https://github.com/marceloosako-mo) |  |
 | Team Member    | Raquel Araújo Lima | [GitHub](https://github.com/RaquelAraujoL) |  |
-| Team Member    | Vinícius Alessandro Moreira | [GitHub]()|  |
+| Team Member    | Vinícius Alessandro Moreira | [GitHub](https://github.com/Viniimoreira)|  |
 
 ---
 
