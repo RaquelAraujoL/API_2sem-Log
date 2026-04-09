@@ -23,9 +23,7 @@ Dashboard do Fluxo de Cargas Especiais e Perigosas de Empresas com Registro no R
 
 ##   Objetivo do Projeto
 
-O objetivo deste projeto é desenvolver uma plataforma de Business Intelligence para analisar o comércio exterior brasileiro,
-com ênfase nos municípios paulistas, utilizando dados oficiais do ComexStat para apoiar decisões estratégicas.
-
+O objetivo deste projeto é desenvolver uma plataforma de Business Intelligence para apresentar o tratamento de dados do IBAMA para cargas especiais para analisar os indicadores de movimentação de cargas.
 ---
 
 ##   Equipe
