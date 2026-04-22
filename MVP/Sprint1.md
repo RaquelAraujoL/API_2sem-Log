@@ -27,7 +27,7 @@
 | Rank | Prioridades | História do Usuário | Pontos | Status | Corrida |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Alta | Como Analista/Gestor, eu quero realizar a extração e o tratamento de valores nulos e duplicados dos dados do IBAMA com registro no RAPP, para que a base de dados do dashboard seja confiável e livre de redundâncias. | 9 | Concluido | 1 |
-| 2 | Alta | Como Analista/Gestor, quero mapear as principais origens e destinos das mercadorias para negociar melhores rotas com armadores e transportadoras | 4  | Concluido |  |
+| 2 | Alta | Como Analista/Gestor, quero mapear as principais origens e destinos das mercadorias para negociar melhores rotas com armadores e transportadoras | 4  | Concluido | 1 |
 | 3 | Alta | Como Analista/Gestor, quero identificar as empresas que movimentam cargas perigosas com declaração realizada para garantir o cumprimento das normas ambientais. | 4 | Concluido  | 1 |
 | 4 | Alta | Como Analista/Gestor, quero visualizar os modais de transporte utilizados para avaliar a eficiência dos acessos terrestres e planejar expansões. | 3 | Concluido  | 1 |
 | 5 | Alta | Como Analista/Gestor, quero acompanhar a evolução da movimentação ao longo do tempo através de gráficos históricos para embasar decisões estratégicas. | 3  | Concluido  | 1 |
