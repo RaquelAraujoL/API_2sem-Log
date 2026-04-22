@@ -62,4 +62,4 @@
 * **Testes de Usabilidade:** Realizar uma demonstração para os "Gestores de Logística" para validar se os filtros de região e estado atendem às necessidades de fiscalização. 
 * **Documentação de ETL:** Começar a redigir o manual técnico explicando como o script Python limpa os dados, facilitando a manutenção futura no GitHub. 
 
-
+- Link colabe limpeza de dados: https://colab.research.google.com/drive/1LAeYP5MkqIlomHgFZOUsjb7Vgtn842dm?usp=sharing
