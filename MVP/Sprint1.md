@@ -1,71 +1,65 @@
-#   MVP - API  Grupo G4 Logística
+#  MVP 1 - Projeto Logística IBAMA (Cargas Especiais) 
 
-##   Objetivo do MVP
+##  Objetivo do MVP 
+* **Problema que resolve:** A dificuldade de consolidar e limpar dados brutos do IBAMA (RAPP) sobre movimentação de cargas perigosas, garantindo uma base confiável para análise. 
+* **Hipótese a validar:** Que o tratamento de dados via Python/Pandas elimina redundâncias e valores nulos, permitindo uma modelagem de dados eficiente para Business Intelligence. 
+* **Valor entregue:** Base de dados higienizada e primeira carga de dados no Power BI para visualização da movimentação histórica. 
 
-- Criar uma dashboard de BI para visualizar o desempenho de Estados e municípios paulistas no comércio exterior a partir de dados do MDIC.
+##  Descrição da Solução 
+### Funcionalidades principais incluídas:
+* Automação de extração, limpeza e padronização de dados do IBAMA (RAPP) via Python/Pandas no Google Colab. 
+* Geração de base consolidada em CSV e scripts de carga para o Power BI. 
+* Dashboards interativos com mapas de fluxo (Origem-Destino) e filtros por região, estado e tipo de carga especial. 
 
----
+### Limitações conhecidas:
+* A atualização dos dados depende da extração manual dos relatórios anuais do IBAMA. 
+* O MVP foca em cargas perigosas e especiais registradas entre 2013 – 2025. 
 
-##   Descrição da Solução
+### Escopo limitado:
+* Foco em fornecer as primeiras análises de movimentação logística e validar a utilidade da ferramenta para gestores ambientais e analistas de logística. 
 
-- Ver principais cargas por município.
-- Ranking por valor de exportação/importação. 
-- Evolução histórica da balança comercial.
-- Gráficos interativos (2023–2025).
+##  Personas / Usuários-Alvo
+1. **Pessoa 1 – Gestor de Logística e Infraestrutura:** Precisa de relatórios rápidos e precisos sobre a movimentação de cargas especiais para tomar decisões sobre rotas, segurança e investimentos em transportes. 
+2. **Persona 2 – Analista de Dados / Ambiental:** Precisa de bases de dados do IBAMA (RAPP) limpas e padronizadas para identificar gargalos logísticos e garantir o cumprimento das normas de transporte de cargas perigosas. 
 
----
+##  Histórias de Usuário (Sprint 1) 
 
-##   User Stories 
-| ID  | User Story                                                                 | Prioridade |  |
-|-----|-----------------------------------------------------------------------------|------------|------------|
-| US1 | Como analista/gestor da plataforma, quero visualizar os principais produtos exportados/importados por um município paulista, para entender sua relevância no comércio exterior.         | Alta       |    |
-| US2 |  Como analista/gestor, quero ver um ranking dos municípios por valor de exportação/importação, para identificar os líderes e os que estão em ascensão ou declínio.        | Alta      |   |
-| US3 | Como analista/gestor, quero ver a evolução histórica da balança comercial dos municípios de SP, para analisar tendências ao longo do tempo.   | Alta       |   |
-| US4 | Como analista/gestor, quero visualizar gráficos interativos com a evolução da balança comercial entre 2023 e 2025, para tomar decisões baseadas em dados.         | Alta      |   |
+| Rank | Prioridades | História do Usuário | Pontos | Status | Corrida |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Alta | Como Analista/Gestor, eu quero realizar a extração e o tratamento de valores nulos e duplicados dos dados do IBAMA com registro no RAPP, para que a base de dados do dashboard seja confiável e livre de redundâncias. | 9 | Concluido | 1 |
+| 2 | Alta | Como Analista/Gestor, quero mapear as principais origens e destinos das mercadorias para negociar melhores rotas com armadores e transportadoras | 4  | Concluido |  |
+| 3 | Alta | Como Analista/Gestor, quero identificar as empresas que movimentam cargas perigosas com declaração realizada para garantir o cumprimento das normas ambientais. | 4 | Concluido  | 1 |
+| 4 | Alta | Como Analista/Gestor, quero visualizar os modais de transporte utilizados para avaliar a eficiência dos acessos terrestres e planejar expansões. | 3 | Concluido  | 1 |
+| 5 | Alta | Como Analista/Gestor, quero acompanhar a evolução da movimentação ao longo do tempo através de gráficos históricos para embasar decisões estratégicas. | 3  | Concluido  | 1 |
 
----
+##  Observações
+* Todas as histórias têm prioridade Alta e foram concluídas durante o Sprint 1.
+* **Ferramentas utilizadas:** Python para tratamento de dados e Power BI para visualização e análise. 
+* O foco é fornecer suporte à formulação de políticas públicas de logística e segurança ambiental com dados de movimentação de cargas limpos e confiáveis.
 
-##   Sprint(s) Relacionadas
-| Sprint | Entregas Principais                          | Status       |
-|--------|----------------------------------------------|--------------|
-| 01     | Fundamentos                                  | Concluído |
-| 02     | Filtros + comparações                        | ideia |
-| 03     | Estratégia, Logística e Transporte           | ideia |
-| 04     | Feira de Soluções                            | ideia |
+## Sprint(s) Relacionadas 
 
----
+| Corrida | Entregas principais | Status |
+| :--- | :--- | :--- |
+| 1 | Automação de extração e limpeza de dados do IBAMA (Python + Pandas). | Concluido |
+| 2 | Integração com Power BI, criação da matriz Origem-Destino e filtros de modais. | Concluido |
+| 3 | Elaboração do relatório técnico analítico e publicação da documentação no GitHub. | Concluido |
 
-##   Métricas de Validação
-- Feedback qualitativo (positivo/negativo)
+##  Critérios de Aceitação
+* O MVP deve permitir que o usuário visualize e filtre os dados consolidados de movimentação de cargas (2013–2025). 
+* O sistema deve disponibilizar o download da base de dados tratada e consolidada em formato CSV. 
+* O dashboard deve apresentar obrigatoriamente o Mapa de Fluxo (Matriz Origem-Destino) e a segmentação por modais de transporte. 
+* **Métricas coletadas:** tempo de processamento do script de limpeza, precisão na identificação de cargas perigosas e feedback dos gestores sobre a clareza dos indicadores. 
 
-  Unir as tarefas da equipe.
-  
-  Analisar com o grupo as tarefas executadas.
+## Métricas de Validação 
+* Nº de inconsistências (duplicados/nulos) removidas durante o processo de ETL. 
+* Tempo de processamento para a geração da base consolidada. 
+* Feedback qualitativo dos analistas sobre a confiabilidade da base inicial. 
 
----
+##  Próximos Passos: MVP 2 (Sprint 2) 
+* **Ajuste de Precisão nas Métricas:** Revisar as medidas DAX (Power BI) para garantir que as toneladas e volumes reflitam exatamente a base tratada, corrigindo casas decimais. 
+* **Análise por Modal:** Iniciar o cruzamento de dados para identificar qual modal (Rodoviário, Ferroviário etc.) é predominante para cada categoria de carga perigosa. 
+* **Testes de Usabilidade:** Realizar uma demonstração para os "Gestores de Logística" para validar se os filtros de região e estado atendem às necessidades de fiscalização. 
+* **Documentação de ETL:** Começar a redigir o manual técnico explicando como o script Python limpa os dados, facilitando a manutenção futura no GitHub. 
 
-##   Próximos Passos
-- Melhorias planejadas após feedback
-
-  Inclusão de videos do processo Powerbi
-  
-  Analisar com o grupo as próximas tarefas.
-- Ajustes de usabilidade
-
-   Melhoria no gráfico US3 Evolução histórica da balança comercial
-
----
-
-##   Anexos / Evidências
-- Prints de tela
-
-<img width="1912" height="863" alt="Image" src="https://github.com/user-attachments/assets/fefa5b0f-bd3d-42c3-af1d-6987d1d4807d" />
-<img width="1905" height="867" alt="Image" src="https://github.com/user-attachments/assets/8f4188e6-776c-4851-b36f-566aceb57fff" />
-<img width="1896" height="867" alt="Image" src="https://github.com/user-attachments/assets/08b12ca1-a4aa-4ba3-be56-a067e745fd90" />
-<img width="1897" height="877" alt="Image" src="https://github.com/user-attachments/assets/699dcaf5-ecdb-46d4-9384-73eb066f4627" />
-<img width="1902" height="987" alt="Image" src="https://github.com/user-attachments/assets/b05e516d-b0ae-48e2-9a85-7fc4b16e0c9a" />
-
-- Video MVP
-
-https://github.com/user-attachments/assets/bac356f1-5d8b-4085-ab82-4b77bac18081
 
