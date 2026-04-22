@@ -16,7 +16,6 @@ Dashboard do Fluxo de Cargas Especiais e Perigosas de Empresas com Registro no R
 - [Registro das Sprints](#registro-das-sprints)
 - [Dashboard Power BI](#dashboard-power-bi)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Relatório API](#relatório-api)
 
  
 ---
