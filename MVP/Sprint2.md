@@ -29,9 +29,9 @@
 
 ---
 
-📋 **HISTÓRIAS DE USUÁRIO (SPRINT 2)** 
+📋 **USER STORIES (SPRINT 2)** 
 
-| ID | Prioridade | História do Usuário | Pontos | Status | Corrida |
+| ID | Prioridade | User Storie | Pontos | Status | Sprint |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 6 | Média |  Como Analista/Gestor eu quero que os nomes das cargas perigosas sejam padronizados, para que eu consiga filtrar e agrupar os tipos de produtos de forma precisa, sem variações ortográficas que separem o mesmo item.  | 3 | Concluido | 2 |  |
 | 7 | Média |  Como Analista/Gestor, eu quero visualizar a Matriz Origem-Destino em um mapa interativo, para que eu possa identificar as rotas de cargas perigosas com maior fluxo e otimizar o planejamento de fiscalização regional.  | 5 | Concluido | 2 |  |
