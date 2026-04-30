@@ -1,3 +1,5 @@
+🧠**MVP 2 - VISULIALIZAÇÃO E INTELIGÊNCIA DE FLUXO**
+
 🎯**OBJETIVO DO MVP2** 
 * <ins>**Problema identificado:</ins>**  Necessidade de maior precisão visual nas rotas de cargas e atualização periódica dos dados para garantir a consistência das análises estratégicas.
  
@@ -32,11 +34,11 @@
 
 | ID | Prioridade | História do Usuário | Pontos | Status | Corrida |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 7 | Média | Como Analista/Gestor eu quero que os nomes das cargas perigosas sejam padronizados, para que eu consiga filtrar e agrupar os tipos de produtos de forma precisa.  | 3 | Concluido | 2 |  |
-| 8 | Média | Como Analista/Gestor, eu quero visualizar a Matriz Origem-Destino em um mapa interativo, para identificar as rotas com maior fluxo e otimizar a fiscalização.  | 5 | Concluido | 2 |  |
-| 9 | Média | Como Analista/Gestor, eu quero filtrar os dados por região, estado e tipo de carga para realizar análises granulares.  | 3 | Concluido | 2 |  |
-| 10 | Média | Como Analista/Gestor, eu quero visualizar a evolução da movimentação através de gráficos de linhas para prever tendências de crescimento.  | 4 | Concluido | 2 |  |
-| - | - | Como Analista/Gestor, eu quero identificar os modais mais utilizados para validar a adequação da infraestrutura e riscos associados.  | 5 | Concluido | 2 |  |
+| 6 | Média |  Como Analista/Gestor eu quero que os nomes das cargas perigosas sejam padronizados, para que eu consiga filtrar e agrupar os tipos de produtos de forma precisa, sem variações ortográficas que separem o mesmo item.  | 3 | Concluido | 2 |  |
+| 7 | Média |  Como Analista/Gestor, eu quero visualizar a Matriz Origem-Destino em um mapa interativo, para que eu possa identificar as rotas de cargas perigosas com maior fluxo e otimizar o planejamento de fiscalização regional.  | 5 | Concluido | 2 |  |
+| 8 | Média |  Como Analista/Gestor, eu quero filtrar os dados por região, estado e tipo de carga, para que eu possa realizar análises granulares e entender o comportamento logístico de nichos específicos.  | 3 | Concluido | 2 |  |
+| 9 | Média | Como Analista/Gestor, eu quero visualizar a evolução da movimentação através de gráficos de linhas ao longo dos anos, para que eu possa prever tendências de crescimento ou identificar quedas atípicas na movimentação de produtos perigosos.  | 4 | Concluido | 2 |  |
+| 10 | Media | Como Analista/Gestor, eu quero identificar os modais mais utilizados (Rodoviário, Ferroviário etc.) para cada categoria de carga perigosa, para que eu possa validar a adequação da infraestrutura utilizada e os riscos associados a cada modal.   | 5 | Concluido | 2 |  |
 
 ---
 
@@ -76,15 +78,15 @@
 ---
 
 📈  **MÉTRICAS DE AVALIAÇÃO** 
-* Tempo de Resposta do Dashboard: O tempo que o painel leva para filtrar e carregar os visuais após a seleção de um estado ou modal.
-* Taxa de Cobertura de Modais: Percentual de registros que possuem o modal corretamente identificado e categorizado no dashboard.
-* Redução de Erros de Geolocalização: Percentual de registros que possuem o modal corretamente identificado e categorizado no dashboard.
-* Nível de Granularidade (Nacional para Estadual sem perda de performance):Capacidade do sistema de descer do nível Nacional para o nível Estadual sem perda de performance.
-* Feedback de Usabilidade dos usuários-alvo:Avaliação dos usuários-alvo (Gestores e Analistas) sobre a facilidade de interpretar a Matriz OD. 
+* <ins>**Tempo de Resposta do Dashboard:</ins>** O tempo que o painel leva para filtrar e carregar os visuais após a seleção de um estado ou modal.
+* <ins>**Taxa de Cobertura de Modais:</ins>** Percentual de registros que possuem o modal corretamente identificado e categorizado no dashboard.
+* <ins>**Redução de Erros de Geolocalização:</ins>** Percentual de registros que possuem o modal corretamente identificado e categorizado no dashboard.
+* <ins>**Nível de Granularidade (Nacional para Estadual sem perda de performance):</ins>**Capacidade do sistema de descer do nível Nacional para o nível Estadual sem perda de performance.
+* <ins>**Feedback de Usabilidade dos usuários-alvo:</ins>**Avaliação dos usuários-alvo (Gestores e Analistas) sobre a facilidade de interpretar a Matriz OD. 
 
 ---
 
 🚀 **PRÓXIMOS PASSOS (PARA A SPRINT 3)** 
-* Iniciar a redação do Relatório Técnico Interpretativo. 
-* Identificar as Top 10 Empresas movimentadoras e gargalos logísticos. 
-* Preparar a documentação final do código para o GitHub. 
+* Iniciar a redação do Relatório Técnico Interpretativo com foco em suporte a políticas públicas. 
+* Identificar as Top 10 Empresas movimentadoras e os pricipais gargalos logísticos por estado. 
+* Preparar a documentação final do código para publicação no GitHub. 
