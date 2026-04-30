@@ -80,8 +80,8 @@
 * <ins>**Tempo de Resposta do Dashboard:</ins>** O tempo que o painel leva para filtrar e carregar os visuais após a seleção de um estado ou modal.
 * <ins>**Taxa de Cobertura de Modais:</ins>** Percentual de registros que possuem o modal corretamente identificado e categorizado no dashboard.
 * <ins>**Redução de Erros de Geolocalização:</ins>** Percentual de registros que possuem o modal corretamente identificado e categorizado no dashboard.
-* <ins>**Nível de Granularidade (Nacional para Estadual sem perda de performance):</ins>**Capacidade do sistema de descer do nível Nacional para o nível Estadual sem perda de performance.
-* <ins>**Feedback de Usabilidade dos usuários-alvo:</ins>**Avaliação dos usuários-alvo (Gestores e Analistas) sobre a facilidade de interpretar a Matriz OD. 
+* <ins>**Nível de Granularidade (Nacional para Estadual sem perda de performance):</ins>** Capacidade do sistema de descer do nível Nacional para o nível Estadual sem perda de performance.
+* <ins>**Feedback de Usabilidade dos usuários-alvo:</ins>** Avaliação dos usuários-alvo (Gestores e Analistas) sobre a facilidade de interpretar a Matriz OD. 
 
 ---
 
