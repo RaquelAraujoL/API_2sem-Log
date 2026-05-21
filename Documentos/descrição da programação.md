@@ -1,10 +1,9 @@
-# <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" width="40" height="40" valign="middle" alt="Python Logo"> Descrição da programação de limpeza e tratamento de dados através do Python/Pandas sobre a planilha de transportes de produtos perigosos/combustíveis.
-
+# <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" width="40" height="40" valign="middle" alt="Python Logo"> DESCRIÇÃO DA PROGRAMAÇÃO DE LIMPEZA E TRATAMENTO DE DADOS ATRAVÉS DO PYTHON/PANDAS SOBRE A PLANILHA DE TRANSPORTES DE PRODUTOS PERIGOSOS/COMBUSTÍVEIS.
 ETL (Extract, Transform, Load - Extração, Transformação e Carga), focado na limpeza e padronização de dados logísticos de transporte de combustíveis.
 
 Aqui está a descrição detalhada, linha por linha, de cada ação executada pelo programa:
 
-## Part 1: Importação e Conexão com o Google Drive
+## PART 1: IMPORTAÇÃO E CONEXÃO COM O GOOGLE DRIVE
 
 Python
 import pandas as pd
