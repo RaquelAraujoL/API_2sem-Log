@@ -21,7 +21,7 @@ Ação: Define variáveis de texto (strings) com o caminho da pasta (origem) e o
 
 ---
 
-## Part 2: Carga Inicial e Padronização de Texto
+## PART 2: CARGA INICIAL E PADRONIZAÇÃO DE TEXTO
 
 Python
 Dados_Padronizados = pd.read_csv(arq, sep=';')
@@ -37,7 +37,7 @@ Ação: Exibe na tela as 3 primeiras linhas da tabela para que você possa fazer
 
 ---
 
-## Part 3: Limpeza da Coluna de Quantidade
+## PART 3: LIMPEZA DA COLUNA DE QUANTIDADE
 
 Python
 Dados_Padronizados['Quantidade Transportada'] = (
@@ -55,7 +55,7 @@ Ação: Corrige a formatação numérica brasileira para o padrão americano/com
 
 ---
 
-## Part 4: Conversão de Unidades de Medida para Litros
+## PART 4: CONVERSÃO DE UNIDADES DE MEDIDA PARA LITROS
 
 Nesta etapa, o código identifica registros que não estão em litros e aplica fatores de conversão matemáticos baseados na regra de negócio do projeto:
 
