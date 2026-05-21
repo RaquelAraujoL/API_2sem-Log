@@ -124,7 +124,7 @@ Ação: Cria uma nova tabela chamada df_filtrado, contendo apenas linhas onde o 
 
 Python
 termos_para_excluir = 'AUTOMÓVEIS|AUTOMOVEIS|CAMINHÕES|CAMINHOES|MOTORES|ETANOLAMINAS|PEÇAS|PECAS|VEÍCULOS|TURBOALIMENTADORES'
-df_filtrado = df_filtrado[~df_filtrado['Produto'].str.contains(termos_para_excluir, na=False)]
+df_filtrado = df_filtrado[~df_filtrado['Produto'].str.contains(termos_para_excluir,na=False)]
 Ação: O sinal de til (~) funciona como uma exclusão (NÃO). Essa linha remove registros indesejados que passaram no filtro anterior por conterem nomes similares, mas que referem-se a autopeças, veículos ou compostos químicos diferentes (ex: remove "Motores a Diesel" ou "Etanolaminas").
 
 Python
