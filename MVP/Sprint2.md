@@ -111,6 +111,4 @@ Documento de Escopo Técnico Reformulado (Padrão IPEM-SP)
 4. Preparar e documentar o código final limpo e tratado para publicação e controle de versão no GitHub.
 
 📂 **ANEXOS / EVIDÊNCIAS**
-
-<img width="1429" height="704" alt="image" src="https://github.com/user-attachments/assets/f71115ad-f52e-4a97-84dd-1b3a4aeb55ba" />'
-<td align="center"><video src="(https://github.com/user-attachments/files/28309382/video.do.powerbi.html)"></video></td>
+<td align="center"><video src="https://github.com/user-attachments/files/28309382/video.do.powerbi.html"></video></td>
