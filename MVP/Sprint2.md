@@ -1,10 +1,10 @@
-🧠 MVP 2 - Visualização e Inteligência de Fluxo 
+🧠 **MVP 2 - VISUALIZAÇÃO E INTELIGÊNCIA DE FLUXO**
 
 Documento de Escopo Técnico Reformulado (Padrão IPEM-SP) 
 
 ---
 
-🎯 Objetivo do MVP2 
+🎯 **OBJETIVO DO MVP2** 
 
 * **Problema Identificado:** Necessidade de maior precisão visual nas rotas de cargas, adequação de formatos numéricos aos padrões técnicos do IPEM-SP, regionalização das análises territoriais e conformidade regulatória sobre o transporte de resíduos perigosos.
 
@@ -18,7 +18,7 @@ Documento de Escopo Técnico Reformulado (Padrão IPEM-SP)
 
 ---
 
-🧩 Descrição da Solução (Principais Entregas) 
+🧩 **DESCRIÇÃO DA SOLUÇÃO (PRINCIPAIS ENTREGAS)** 
 
 * **Mapa de Fluxo & Matriz OD Avançada:** Implementação de visual de mapa funcional para exibir a Matriz Origem-Destino das cargas perigosas, incluindo botões de segmentação de dados exclusivos para isolar os fluxos de exportação interestadual (Origem: SP ➔ Destino: BR) e importação interestadual (Origem: BR ➔ Destino: SP).
 
@@ -58,7 +58,7 @@ Documento de Escopo Técnico Reformulado (Padrão IPEM-SP)
 > 
 
 ---
-📋 User Storie Atualizadas (Sprint 2)
+📋 **USER STORIE ATUALIZADAS (SPRINT 2)**
 | ID | Prioridade | User storie | Pontos | Status |
 | --- | --- | --- | --- | --- |
 | **US01** | Média | Como Analista/Gestor, eu quero que os nomes das cargas perigosas sejam padronizados, para que eu consiga filtrar e agrupar os produtos sem variações ortográficas. | 3 | Concluído |
@@ -74,7 +74,7 @@ Documento de Escopo Técnico Reformulado (Padrão IPEM-SP)
 
 ---
 
-📊 Critérios de Aceitação Atualizados 
+📊 **CRITÉRIOS DE ACEITAÇÃO ATUALIZADOS** 
 
 * **Formato Numérico Estrito:** Nenhum campo volumétrico ou de contagem de carga pode exibir formato em notação científica (E+). Todos os dados devem estar formatados como número inteiro com separadores de milhar.
 
@@ -97,7 +97,7 @@ Documento de Escopo Técnico Reformulado (Padrão IPEM-SP)
 
 ---
 
-🚀 Próximos Passos (Para a Sprint 3) 
+🚀 **PRÓXIMOS PASSOS (PARA A SPRINT 3)** 
 
 1. Iniciar a redação do Relatório Técnico Interpretativo com foco em suporte a políticas públicas do IPEM-SP.
 
