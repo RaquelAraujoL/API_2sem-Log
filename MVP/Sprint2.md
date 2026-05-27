@@ -1,96 +1,114 @@
-🎯**OBJETIVO DO MVP2** 
+🧠 MVP 2 - Visualização e Inteligência de Fluxo 
 
-* <ins>**Problema identificado:</ins>**  Necessidade de maior precisão visual nas rotas de cargas e atualização periódica dos dados para garantir a consistência das análises estratégicas.
- 
-* <ins>**Melhoria validada:</ins>** Implementação de mapas interativos para visualização da Matriz Origem-Destino (OD) e filtros granulares para análise regional.
- 
-* <ins>**Valor entregue:</ins>** Dashboards com navegação intuitiva que permitem identificar tendências de movimentação e comparar o desempenho de diferentes modais de transporte. 
+Documento de Escopo Técnico Reformulado (Padrão IPEM-SP) 
 
 ---
 
-🧩 **DESCRIÇÃO DA SOLUÇÃO**
+🎯 Objetivo do MVP2 
 
- **Principais entregas nesta etapa:** 
+* **Problema Identificado:** Necessidade de maior precisão visual nas rotas de cargas, adequação de formatos numéricos aos padrões técnicos do IPEM-SP, regionalização das análises territoriais e conformidade regulatória sobre o transporte de resíduos perigosos.
 
-* <ins>**Mapa de Fluxo:</ins>** Implementação de visual de mapa para exibir a Matriz Origem-Destino das cargas perigosas.
 
-* <ins>**Segmentação Avançada:</ins>** Filtros interativos por região, estado e tipo de produto.
-   
-* <ins>**Gráficos de Tendência:</ins>** Visualização da evolução da movimentação ao longo dos anos via gráficos de linhas.
-  
-* <ins>**Saneamento de Dados:</ins>** Padronização dos nomes das cargas e eliminação de duplicidades via Python 
+* **Melhoria Validada:** Implementação de mapas interativos para visualização da Matriz Origem-Destino (OD), criação de segmentações específicas de fluxo (SP ➔ BR e BR ➔ SP), agrupamento por Regiões Administrativas paulistas, legenda oficial de situação cadastral (RAPP/IBAMA) e gráficos progressivos por modal.
 
- **Tecnologias utilizadas:** 
-* Python (Google Colab)
-* Pandas
-* Power BI
-* GitHub
-* Excel
+
+* **Valor Entregue:** Dashboards com navegação intuitiva (máximo 3 cliques) que permitem identificar tendências de movimentação, avaliar conformidade legal e comparar o desempenho volumétrico de diferentes modais de transporte de forma clara e direta.
+
+
 
 ---
 
-📋 **USER STORIES (SPRINT 2)** 
+🧩 Descrição da Solução (Principais Entregas) 
 
-| ID | Prioridade | User Storie | Pontos | Status | Sprint |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 6 | Média |  Como Analista/Gestor eu quero que os nomes das cargas perigosas sejam padronizados, para que eu consiga filtrar e agrupar os tipos de produtos de forma precisa, sem variações ortográficas que separem o mesmo item.  | 3 | Concluido | 2 |  |
-| 7 | Média |  Como Analista/Gestor, eu quero visualizar a Matriz Origem-Destino em um mapa interativo, para que eu possa identificar as rotas de cargas perigosas com maior fluxo e otimizar o planejamento de fiscalização regional.  | 5 | Concluido | 2 |  |
-| 8 | Média |  Como Analista/Gestor, eu quero filtrar os dados por região, estado e tipo de carga, para que eu possa realizar análises granulares e entender o comportamento logístico de nichos específicos.  | 3 | Concluido | 2 |  |
-| 9 | Média | Como Analista/Gestor, eu quero visualizar a evolução da movimentação através de gráficos de linhas ao longo dos anos, para que eu possa prever tendências de crescimento ou identificar quedas atípicas na movimentação de produtos perigosos.  | 4 | Concluido | 2 |  |
-| 10 | Media | Como Analista/Gestor, eu quero identificar os modais mais utilizados (Rodoviário, Ferroviário etc.) para cada categoria de carga perigosa, para que eu possa validar a adequação da infraestrutura utilizada e os riscos associados a cada modal.   | 5 | Concluido | 2 |  |
+* **Mapa de Fluxo & Matriz OD Avançada:** Implementação de visual de mapa funcional para exibir a Matriz Origem-Destino das cargas perigosas, incluindo botões de segmentação de dados exclusivos para isolar os fluxos de exportação interestadual (Origem: SP ➔ Destino: BR) e importação interestadual (Origem: BR ➔ Destino: SP).
+
+
+* **Saneamento e Formatação Numérica:** Padronização dos nomes das cargas, eliminação de duplicidades via Python (`drop_duplicates`) e alteração estrita do formato de exibição de Notação Científica para Número Inteiro com separador de milhar (ex: transformar 1,2E+05 em 120.000).
+
+
+* **Regionalização e Inteligência Territorial:** Criação de tabela de relacionamento (De-Para) para agrupar e filtrar os municípios de São Paulo por suas respectivas Regiões Administrativas (RAs) oficiais (ex: Vale do Paraíba, Campinas, etc.).
+
+
+* **Painel de Conformidade e Legenda RAPP/IBAMA:** Inserção de legenda explicativa contextualizada no BI detalhando os status de situação cadastral:
+
+
+* **Ativo:** Regular e autorizado a emitir MTR.
+
+
+* **Suspenso:** Interrompido por pendências ou penalidade.
+
+
+* **Cancelado:** Extinto definitivamente.
+
+
+* **Inativo:** Sem movimentação nos prazos legais.
+
+
+
+
+* **Notas de Engenharia e Regulação:** Inclusão de nota técnica explicativa fixa e visível sobre a obrigatoriedade do Plano de Ação de Emergência (PAE) para o transporte rodoviário ou ferroviário de resíduos perigosos (Classe I).
+
+
+* **Gráfico Progressivo de Modais:** Implementação de gráfico de barras progressivas (ou Gauge/Bullet Chart personalizado) comparando o volume total movimentado entre o modal Rodoviário vs. Ferroviário.
+
+
+
+> 🛠️ **Tecnologias Utilizadas:** Python (Google Colab), Pandas, Power BI, GitHub e Excel.
+> 
+> 
+
+---
+📋 User Storie Atualizadas (Sprint 2)
+| ID | Prioridade | User storie | Pontos | Status |
+| --- | --- | --- | --- | --- |
+| **US01** | Média | Como Analista/Gestor, eu quero que os nomes das cargas perigosas sejam padronizados, para que eu consiga filtrar e agrupar os produtos sem variações ortográficas. | 3 | Concluído |
+| **US02** | Média | Como Analista/Gestor, eu quero visualizar a Matriz Origem-Destino em um mapa interativo, para identificar as rotas com maior fluxo e otimizar a fiscalização. | 5 | Concluído |
+| **US03** | Média | Como Analista/Gestor, eu quero filtrar os dados por região, estado e tipo de carga, para realizar análises granulares de nichos específicos. | 3 | Concluído |
+| **US04** | Média | Como Analista/Gestor, eu quero visualizar a evolução da movimentação através de gráficos de linhas ao longo dos anos (2013-2025), para prever tendências de crescimento. | 4 | Concluído |
+| **US05** | Média | Como Analista/Gestor, eu quero identificar os modais mais utilizados para cada categoria de carga, para validar a adequação da infraestrutura utilizada. | 5 | Concluído |
+| **US06** | Alta | Como Gestor do IPEM-SP, eu quero ver os volumes em Números Inteiros Formatados (sem notação científica), para que a leitura dos relatórios seja imediata e precisa. | 3 | A Fazer |
+| **US07** | Alta | Como Analista, eu quero filtrar rapidamente os fluxos específicos SP➔BR e BR➔SP através de segmentações de dados, para monitorar o balanço de resíduos nas fronteiras. | 5 | A Fazer |
+| **US08** | Média | Como Gestor Regional, eu quero visualizar os dados de SP agregados pelas suas Regiões Administrativas oficiais, para planejar fiscalizações regionais direcionadas. | 5 | A Fazer |
+| **US09** | Média | Como Fiscal do IPEM, eu quero ter acesso a uma legenda clara dos status cadastrais do RAPP/IBAMA no painel, para identificar a regularidade das empresas de forma ágil. | 3 | A Fazer |
+| **US10** | Alta | Como Auditor Ambiental, eu quero comparar o volume dos modais Rodoviário e Ferroviário através de um gráfico de barras progressivas, para avaliar a matriz de risco. | 5 | A Fazer |
 
 ---
 
-💡 **OBSERVAÇÕES** 
+📊 Critérios de Aceitação Atualizados 
 
-* <ins>**Foco da Etapa:</ins>** Transição do "Cérebro" Extrair, Transformar e Carregar (ETL) para a "Visualização".
-  
-* <ins>**Ferramentas:</ins>** Utilização de Power BI para a criação de matriz Origem-Destino (OD) e Python para refinamento continuo.
-  
-* <ins>**Diferencial Logístico:</ins>** Implementação de filtros avançados por Modal de Transporte e Tipo de Carga para visão granular no IBAMA.
-  
-* <ins>**Dados:</ins>** Base consolidada cobrindo o período de 2013 a 2025. 
-
----
-
-## 📅 SPRINT RELACIONADA
+* **Formato Numérico Estrito:** Nenhum campo volumétrico ou de contagem de carga pode exibir formato em notação científica (E+). Todos os dados devem estar formatados como número inteiro com separadores de milhar.
 
 
-| Sprint | Entregas principais | Status |
-| :--- | :--- | :--- |
-| 2 | Desenvolvimento do Dashboard (Mapa OD, Filtros e Tendências). | Concluido | 
-| 3 | Publicação de relatórios revisados e controle de versão no GitHub. | Em andamento | 
+* **Precisão de Filtros (Matriz OD):** Devem existir botões de segmentação dedicados que isolem e filtrem instantaneamente na tela as rotas SP ➔ BR e BR ➔ SP.
 
----
 
-📊 **CRITÉRIOS DE ACEITAÇÃO** 
-* <ins>**Visual de Mapa:</ins>** O dashboard deve obrigatoriamente exibir um mapa funcional que conecte os pontos de Origem e Destino das cargas.
-  
-* <ins>**Precisão de Filtros:</ins>** Os filtros de Região, Estado e Modal devem responder instantaneamente.
-   
-* <ins>**Gráficos de Tendência:</ins>** Visualização clara da evolução anual (2013-2025).
-   
-* <ins>**Consistência de Dados:</ins>** O total de registros no Power BI deve ser idêntico à base limpa gerada em Python.
-   
-* <ins>**Navegação:</ins>** Interface intuitiva (encontrar nichos específicos com no máximo 3 cliques).
+* **Hierarquia Territorial:** O painel deve permitir a filtragem e agrupamento de municípios paulistas através de suas respectivas Regiões Administrativas (RAs) oficiais.
+
+
+* **Informativos e Legendas Obrigatórias:** O dashboard deve conter de forma estática e visível a nota explicativa sobre o Plano de Ação de Emergência (PAE) para cargas perigosas de Classe I e a legenda detalhada dos status do RAPP/IBAMA.
+
+
+* **Gráfico Progressivo:** O comparativo volumétrico entre os modais Rodoviário e Ferroviário deve ser dinâmico e usar uma estrutura visual de progresso clara.
+
+
+* **Navegação Rápida:** A interface deve ser intuitiva, permitindo que o gestor encontre qualquer informação de nicho específico com no máximo 3 cliques.
+
+
 
 ---
 
-📈  **MÉTRICAS DE AVALIAÇÃO** 
-* <ins>**Tempo de Resposta do Dashboard:</ins>** O tempo que o painel leva para filtrar e carregar os visuais após a seleção de um estado ou modal.
-* <ins>**Taxa de Cobertura de Modais:</ins>** Percentual de registros que possuem o modal corretamente identificado e categorizado no dashboard.
-* <ins>**Redução de Erros de Geolocalização:</ins>** Percentual de registros que possuem o modal corretamente identificado e categorizado no dashboard.
-* <ins>**Nível de Granularidade (Nacional para Estadual sem perda de performance):</ins>** Capacidade do sistema de descer do nível Nacional para o nível Estadual sem perda de performance.
-* <ins>**Feedback de Usabilidade dos usuários-alvo:</ins>** Avaliação dos usuários-alvo (Gestores e Analistas) sobre a facilidade de interpretar a Matriz OD. 
+🚀 Próximos Passos (Para a Sprint 3) 
 
----
+1. Iniciar a redação do Relatório Técnico Interpretativo com foco em suporte a políticas públicas do IPEM-SP.
 
-🚀 **PRÓXIMOS PASSOS (PARA A SPRINT 3)** 
-* Iniciar a redação do Relatório Técnico Interpretativo com foco em suporte a políticas públicas. 
-* Identificar as Top 10 Empresas movimentadoras e os pricipais gargalos logísticos por estado. 
-* Preparar a documentação final do código para publicação no GitHub.
-  
----
+
+2. Identificar as Top 10 Empresas movimentadoras de resíduos e mapear os principais gargalos logísticos por estado.
+
+
+3. Desenvolver os scripts/fórmulas em DAX e Power Query (M) necessários para suportar os novos filtros e a tabela de Regiões Administrativas.
+
+
+4. Preparar e documentar o código final limpo e tratado para publicação e controle de versão no GitHub.
 
 📂 **ANEXOS / EVIDÊNCIAS**
 
