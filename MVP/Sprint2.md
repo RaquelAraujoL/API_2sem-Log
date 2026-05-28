@@ -61,11 +61,6 @@ Documento de Escopo Técnico Reformulado (Padrão IPEM-SP)
 📋 **USER STORIE ATUALIZADAS (SPRINT 2)**
 | ID | Prioridade | User storie | Pontos | Status |
 | --- | --- | --- | --- | --- |
-| **US01** | Média | Como Analista/Gestor, eu quero que os nomes das cargas perigosas sejam padronizados, para que eu consiga filtrar e agrupar os produtos sem variações ortográficas. | 3 | Concluído |
-| **US02** | Média | Como Analista/Gestor, eu quero visualizar a Matriz Origem-Destino em um mapa interativo, para identificar as rotas com maior fluxo e otimizar a fiscalização. | 5 | Concluído |
-| **US03** | Média | Como Analista/Gestor, eu quero filtrar os dados por região, estado e tipo de carga, para realizar análises granulares de nichos específicos. | 3 | Concluído |
-| **US04** | Média | Como Analista/Gestor, eu quero visualizar a evolução da movimentação através de gráficos de linhas ao longo dos anos (2013-2025), para prever tendências de crescimento. | 4 | Concluído |
-| **US05** | Média | Como Analista/Gestor, eu quero identificar os modais mais utilizados para cada categoria de carga, para validar a adequação da infraestrutura utilizada. | 5 | Concluído |
 | **US06** | Alta | Como Gestor do IPEM-SP, eu quero ver os volumes em Números Inteiros Formatados (sem notação científica), para que a leitura dos relatórios seja imediata e precisa. | 3 | A Fazer |
 | **US07** | Alta | Como Analista, eu quero filtrar rapidamente os fluxos específicos SP➔BR e BR➔SP através de segmentações de dados, para monitorar o balanço de resíduos nas fronteiras. | 5 | A Fazer |
 | **US08** | Média | Como Gestor Regional, eu quero visualizar os dados de SP agregados pelas suas Regiões Administrativas oficiais, para planejar fiscalizações regionais direcionadas. | 5 | A Fazer |
