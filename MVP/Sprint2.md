@@ -61,11 +61,11 @@ Documento de Escopo Técnico Reformulado (Padrão IPEM-SP)
 📋 **USER STORIE ATUALIZADAS (SPRINT 2)**
 | ID | Prioridade | User storie | Pontos | Status |
 | --- | --- | --- | --- | --- |
-| **US06** | Alta | Como Gestor do IPEM-SP, eu quero ver os volumes em Números Inteiros Formatados (sem notação científica), para que a leitura dos relatórios seja imediata e precisa. | 3 | A Fazer |
-| **US07** | Alta | Como Analista, eu quero filtrar rapidamente os fluxos específicos SP➔BR e BR➔SP através de segmentações de dados, para monitorar o balanço de resíduos nas fronteiras. | 5 | A Fazer |
-| **US08** | Média | Como Gestor Regional, eu quero visualizar os dados de SP agregados pelas suas Regiões Administrativas oficiais, para planejar fiscalizações regionais direcionadas. | 5 | A Fazer |
-| **US09** | Média | Como Fiscal do IPEM, eu quero ter acesso a uma legenda clara dos status cadastrais do RAPP/IBAMA no painel, para identificar a regularidade das empresas de forma ágil. | 3 | A Fazer |
-| **US10** | Alta | Como Auditor Ambiental, eu quero comparar o volume dos modais Rodoviário e Ferroviário através de um gráfico de barras progressivas, para avaliar a matriz de risco. | 5 | A Fazer |
+| **US06** | Média | Como Analista/Gestor eu quero que os nomes das cargas perigosas sejam padronizados, para que eu consiga filtrar e agrupar os tipos de produtos de forma precisa, sem variações ortográficas que separem o mesmo item.  | 3 | Concluido |
+| **US07** | Média | Como Analista/Gestor, eu quero visualizar a Matriz Origem-Destino em um mapa interativo, para que eu possa identificar as rotas de cargas perigosas com maior fluxo e otimizar o planejamento de fiscalização regional.  | 5 | Concluido |
+| **US08** | Média | Como Analista/Gestor, eu quero filtrar os dados por região, estado e tipo de carga, para que eu possa realizar análises granulares e entender o comportamento logístico de nichos específicos. | 3 | Concluido |
+| **US09** | Média | Como Analista/Gestor, eu quero visualizar a evolução da movimentação através de gráficos de linhas ao longo dos anos, para que eu possa prever tendências de crescimento ou identificar quedas atípicas na movimentação de produtos perigosos. | 4 | Concluido |
+| **US10** | Média | Como Analista/Gestor, eu quero identificar os modais mais utilizados (Rodoviário, Ferroviário, etc.) para cada categoria de carga perigosa, para que eu possa validar a adequação da infraestrutura utilizada e os riscos associados a cada modal.  | 5 | Concluido |
 
 ---
 
