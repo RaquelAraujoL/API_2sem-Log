@@ -28,10 +28,10 @@ O objetivo deste projeto é desenvolver uma plataforma de Business Intelligence 
 ##   Equipe
 | Função         | Nome     | GitHub | |
 |----------------|----------|----------|--------|
-| Product Owner  | Alisson Paulo de Andrade  | [GitHub](https://github.com/alisson051013) | |
-| Scrum Master   | Bianca Ayumi Nakamura | [GitHub](https://github.com/BiancaAyumiNakamura) | |
-| Team Member    | Jackson David Rodrigues Penaforte | [GitHub](https://github.com/Jacksonpenaforte) |  |
-| Team Member    | Marcelo R. Osako  | [GitHub](https://github.com/marceloosako-mo) |  |
+| Product Owner  |   | [GitHub]() | |
+| Scrum Master   |  | [GitHub]() | |
+| Team Member    |  | [GitHub]() |  |
+| Team Member    |   | [GitHub]() |  |
 | Team Member    | Raquel Araújo Lima | [GitHub](https://github.com/RaquelAraujoL) |  |
 | Team Member    | Vinícius Alessandro Moreira | [GitHub](https://github.com/Viniimoreira)|  |
 
